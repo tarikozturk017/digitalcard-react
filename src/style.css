@@ -5,7 +5,7 @@
     box-sizing: border-box;
     /* position: absolute; */
     width: 550px;
-    height: 868px;
+    height: 850px;
     justify-items: center;
     display: block;
     margin-left: auto;
@@ -21,6 +21,7 @@ main{
     margin-left: auto;
     margin-right: auto;
     padding-top: 1px;
+    top:10px;
 
     background: #1A1B21;
 }
@@ -32,7 +33,7 @@ main{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
+    top: 50px;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -60,7 +61,7 @@ main{
     height: 14.19px;
     margin-left: auto;
     margin-right: auto;
-    top: -15px;
+    top: -20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -77,7 +78,7 @@ main{
     
     margin-left: auto;
     margin-right: auto;
-    top: -10px;
+    top: -20px;
     font-family: 'Inter';
     font-style: normal;
     
@@ -99,6 +100,7 @@ main{
     justify-content: center;
     align-items: center;
     padding: 9px 13px 9px 11px;
+    margin-top: -30px;
     gap: 8px;
 }
 
@@ -111,13 +113,13 @@ main{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 9px 13px 9px 11px;
+    padding: 9px 2px 9px 20px;
     gap: 8px;
 
     position: relative;
     width: 115px;
     height: 34px;
-    
+    left: 15px;
 
     background: #FFFFFF;
     /* gray/300 */
@@ -128,41 +130,123 @@ main{
    
     border-radius: 6px;
 }
+
+#email-icon{
+    position: relative;
+    right: 65px;
+    /* right: 10%;  */
+    top: 20%;
+    top: 1px;
+    bottom: 20%;
+    text-align: center;
+    align-items: center;
+    
+
+    /* background: #1E1F26; */
+}
+
 #linkedin{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 9px 13px 9px 11px;
-    gap: 8px;
-
+    padding: 9px 2px 9px 20px;
+    /* gap: 8px; */
+    right: -10px;
+    /* right: 1px; */
     position: relative;
     width: 115px;
     height: 34px;
     
     border: 1px solid #5093E2;
     background: #5093E2;
-    
-
-    
     border-radius: 6px;
 }
-/* body {
-    margin: 0;
-}
 
-nav {
-    display: flex;
+#linkedin-icon{
+    position: relative;
+    right: 76px;
+    top: 20%;
+    top: 1px;
+    bottom: 20%;
+    text-align: center;
     align-items: center;
-    background-color: #21222A;
-    height: 90px;
-    padding: 30px 25px;
+    color:#FFFFFF;
+    
+}
+.body{
+    position: relative;
+    width: 317px;
+    height: 399px;    
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-nav > h3, nav > h4 {
+
+.upper-container {
+    position: relative;
+    width: 220px;
+    height: 61px;
+    left: 28px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+.upper-container > h5, .lower-container > h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10%;
+    margin-bottom: 10px;
+    
+    /* or 24px */
+
+
+    color: #F5F5F5;
+}
+
+.lower-container {
+    position: relative;
+    width: 220px;
+    height: 61px;
+    left: 28px;
+    top: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+
+.footer{
+    position: relative;
+    width: 250px;
+    height: 64px;
+    bottom: 208px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer-icon-container{
+    position: relative;
+    width: 104px;
+    bottom: 0px;
     margin: 0;
+    left: 28px;
+    top: 17px;
+    align-content: center;
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
 }
-
-nav > img {
-    height: 30px
-} */
+.footer-icons{
+    color: #918E9B;
+    margin-left: 20px;
+}
